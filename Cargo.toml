@@ -30,10 +30,10 @@ mesalock_sgx = ["sgx_tstd"]
 
 [dependencies]
 time = { version = "0.1.39", optional = true }
-num-integer = { git = "https://github.com/mesalock-linux/num-integer-sgx" }
-num-traits = { git = "https://github.com/mesalock-linux/num-traits-sgx" }
+num-integer = { git = "https://github.com/fredfortier/num-integer-sgx", rev = "v1.0.9-backup" }
+num-traits = { git = "https://github.com/mesalock-linux/num-traits-sgx", rev = "v1.0.9-backup" }
 rustc-serialize = { version = "0.3.20", optional = true }
-serde = { version = "1", git = "https://github.com/mesalock-linux/serde-sgx", optional = true }
+serde = { version = "1", git = "https://github.com/mesalock-linux/serde-sgx", rev = "v1.0.9-backup", optional = true }
 sgx_tstd = { rev = "v1.0.9", git = "https://github.com/baidu/rust-sgx-sdk.git", optional = true }
 
 [dev-dependencies]
